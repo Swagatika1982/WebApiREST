@@ -15,7 +15,7 @@ namespace WebApiREST
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
-            int i = 0;
+            int i = 6;
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
